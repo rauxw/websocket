@@ -5,7 +5,7 @@ function App() {
   const [socket, setSocket] = useState();
   const [message, setMessage] = useState();
 
-  const inputRef = useRef();
+  const inputRef = useRef()<null>;
 
   const sendMessage = () => {
     if (!socket) {
